@@ -9,6 +9,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.guifont = "monospace:h17"
 vim.opt.wrap = false
+vim.opt.cursorline = true
 
 -- undo
 vim.opt.undofile = true
@@ -18,3 +19,6 @@ vim.opt.clipboard = "unnamedplus"
 
 -- mouse
 vim.opt.mouse = "a"
+
+-- search
+vim.opt.smartcase = true
